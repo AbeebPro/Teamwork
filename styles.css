@@ -1,0 +1,94 @@
+html, body{
+	max-width: 100%;
+	overflow-x: hidden;
+}
+body {
+	background-color: #ffffff;
+	margin: 0;
+}
+.navbar {
+	padding: 5% 15%;
+	font-family: "Roboto", sans-serif;
+	font-weight: 700;
+}
+.nav-item {
+	padding: 0 3%;
+	font-size: 0.8rem;
+}
+.main{
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+.yell {
+	color: #f6e2b9;
+}
+.blue{
+	color: #b11226;
+}
+.main img {
+	width: 60%;
+}
+.main h1 {
+	font-family: "Pacifico", sans-serif;
+	font-size: 4rem;
+	color: #f6e2b9;
+	font-weight: bold;
+}
+.main h3{
+	font-family: "Style Script", sans-serif;
+	font-size: 2.5rem;
+	color: #b11226;
+}
+.main .par p {
+	font-family: "Roboto", sans-serif;
+	font-size: 1.3rem;
+}
+.par {
+	margin-bottom: 40px;
+}
+hr{
+	border-top: 10px dotted #f6e2b9;
+	width: 60px;
+}
+.members{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	color: #f6e2b9;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.testimonials {
+	padding: 0 20%;
+	text-align: center;
+	font-size: 0.7rem;
+	color: #b11226;
+	font-family: "Roboto", sans-serif;
+}
+.footer{
+	text-align: center;
+	color: grey;
+	font-size: 0.8rem;
+}
+@media (max-width: 500px) {
+	.main h1{
+		font-size: 2.3rem;
+	}
+	.main h3{
+		font-size: 1rem;
+	}
+	.members{
+		font-size: 0.9rem;
+	}
+	.main p {
+		font-size: 0.7rem;
+	}
+	.main .par{
+		font-size: 0.7rem;
+	}
+	hr{
+		border-top: 5px dotted #f6e2b9;
+		width: 30px;
+	}
+}
